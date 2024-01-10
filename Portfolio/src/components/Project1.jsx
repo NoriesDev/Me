@@ -26,7 +26,7 @@ function Project1() {
    <Card className="h-[200px] w-[350px] md:h-[225px] z-0 flex mt-8 justify-center items-center mx-auto font-four rounded">
 <CardHeader className="flex-col z-[2] absolute justify-center text-center bg-black/50 w-[450px] h-[200px] md:w-[500px] md:h-[225px] rounded ">
 <p className="text-beige font-bold text-3xl font-four" >GlobeHackers</p>
-<p className="text-white font-bold text-xl font-four">A Travel Guide Group Project</p>
+<p className="text-white font-bold text-xl font-four">A travel guide</p>
 
 <div className="flex mt-4">
 <h3 className="text-white font-bold my-1">TECH STACK:</h3>
@@ -48,7 +48,7 @@ function Project1() {
 <Card className="h-[200px] w-[350px] md:h-[225px] z-0 flex mt-8 justify-center items-center mx-auto font-four rounded">
 <CardHeader className="flex-col z-[2] absolute justify-center text-center bg-black/50 w-[450px] h-[200px] md:w-[500px] md:h-[225px] rounded mx-auto">
 <p className="text-beige font-bold text-3xl font-four" >Wren Creations</p>
-            <p className="text-white font-bold text-xl font-four">My first Solo Full Stack Project</p>
+            <p className="text-white font-bold text-xl font-four">Solo full stack project</p>
 
             <div className="flex mt-4">
             <h3 className="text-white font-bold my-1">TECH STACK:</h3>
