@@ -13,7 +13,7 @@ function Contact() {
    <div className="text-white font-four text-5xl text-center font-bold my-16">
     <p>CONTACT</p>
    </div>
-   <div className="flex flex-col lg:flex-row my-12">
+   <div className="flex flex-col lg:flex-row my-12 mx-auto justify-center">
    <Form />
    <ContactComp />
    <Logo/>

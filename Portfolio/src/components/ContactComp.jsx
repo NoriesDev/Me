@@ -22,7 +22,7 @@ function ContactComp() {
 
   return (
     <>
-    <Card className="bg-black/20 justify-content-center mx-auto my-4 w-[370px] items-center justify-center font-four px-8 rounded">
+    <Card className="bg-black/20 justify-content-center mx-auto my-4 md:w-[370px] items-center justify-center font-four px-8 rounded">
       <CardHeader className="text-center mx-auto justify-center ">
         <h3 className="font-bold text-beige text-xl mt-8">Or find me on</h3>
       </CardHeader>

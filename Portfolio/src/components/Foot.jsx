@@ -10,9 +10,9 @@ function Foot() {
         <div className='flex justify-center '>
         <img src={Logo1} alt="Logo" className="object-cover w-[140px] h-[140px] mx-auto" />
         </div>
-        <div className='text-center text-white lg:mb-8 my-4 ml-8'>
-        <h5>Privacy Policy | © 2024 Design by Nora Martiny</h5>
-
+        <div className='text-center text-white lg:mb-8 my-4 mx-auto'>
+        <h5>Privacy Policy</h5>
+        <p>© 2024 Nora Martiny</p>
       </div>
       </div>
       </footer>

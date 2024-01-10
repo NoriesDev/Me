@@ -22,9 +22,9 @@ function Project1() {
 
   return (
     <>
-   <div className="justify-center justify-content-center items-center mx-auto px-8 my-8 rounded  bg-black/10">
-   <Card className=" h-[225px] z-0 flex mt-8 justify-center items-center mx-auto font-four mx-4 rounded">
-<CardHeader className="flex-col z-[2] absolute justify-center text-center bg-black/50  w-[500px] h-[225px] rounded ">
+   <div className="justify-center justify-content-center items-center mx-auto lg:px-8 my-8 rounded  bg-black/10">
+   <Card className="h-[200px] w-[350px] md:h-[225px] z-0 flex mt-8 justify-center items-center mx-auto font-four rounded">
+<CardHeader className="flex-col z-[2] absolute justify-center text-center bg-black/50 w-[450px] h-[200px] md:w-[500px] md:h-[225px] rounded ">
 <p className="text-beige font-bold text-3xl font-four" >GlobeHackers</p>
 <p className="text-white font-bold text-xl font-four">A Travel Guide Group Project</p>
 
@@ -41,12 +41,12 @@ function Project1() {
              <DiPostgresql className="text-white text-3xl mx-2"/>
 </div>
 </CardHeader>
-<Image src={GHimg} className=" z-[1] relative rounded  h-[225px] w-[500px] object-cover my-2" />
+<Image src={GHimg} className=" z-[1] relative rounded w-[450px] h-[200px]  md:h-[225px] md:w-[500px] object-cover" />
 </Card>
 
 
-<Card className="h-[225px] bg-black/0 z-0 flex mt-8 justify-center items-center mx-auto font-four mx-4 rounded">
-<CardHeader className="flex-col z-[2] absolute justify-center text-center bg-black/50  w-[500px] h-[225px] rounded ">
+<Card className="h-[200px] w-[350px] md:h-[225px] z-0 flex mt-8 justify-center items-center mx-auto font-four rounded">
+<CardHeader className="flex-col z-[2] absolute justify-center text-center bg-black/50 w-[450px] h-[200px] md:w-[500px] md:h-[225px] rounded mx-auto">
 <p className="text-beige font-bold text-3xl font-four" >Wren Creations</p>
             <p className="text-white font-bold text-xl font-four">My first Solo Full Stack Project</p>
 
@@ -65,10 +65,10 @@ function Project1() {
             </div>
             </CardHeader>
 
-            <Image src={wren} className=" z-[1] relative rounded  h-[225px] w-[500px] object-cover my-2" />
+            <Image src={wren} className=" z-[1] relative rounded  w-[450px] h-[200px]  md:h-[225px] md:w-[500px] object-cover mx-auto" />
 </Card>
 
-<Button onClick={handlePf} className="hover:bg-rosa/50 bg-white/20 text-white hover:text-beige font-bold w-[200px] mx-28 md:mx-40  my-4" >View Projects</Button>
+<Button onClick={handlePf} className="hover:bg-rosa/50 bg-white/20 text-white hover:text-beige font-bold w-[200px] mx-16 md:mx-40  my-4" >View Projects</Button>
    </div>
     </>
   )

@@ -34,8 +34,9 @@ function Form() {
 
   return (
     <>
-      <Card className="grid gap-4 justify-center mx-auto text-white font-four bg-black/20 w-[370px] my-4 rounded">
+      <Card className="grid gap-4 justify-center mx-auto text-white font-four bg-black/20 w-[320px] md:w-[370px] my-4 rounded">
             <h3 className="font-bold text-xl text-center text-beige mt-10">Send a Mail</h3>
+            <div className="justify-center items-center mx-auto">
         <Input 
           value={email}
           type="email"
@@ -44,7 +45,7 @@ function Form() {
           color={isEmailInvalid ? "danger" : "success"}
           errorMessage={isEmailInvalid && "Please enter a valid email"}
           onValueChange={setEmail}
-          className="max-w-xs"
+          className="w-[300px] md:w-[370px]"
         />
         <Textarea 
           value={message}
@@ -54,15 +55,16 @@ function Form() {
           color={isMessageInvalid ? "danger" : "success"}
           errorMessage={isMessageInvalid && "Please enter a valid message"}
           onValueChange={setMessage}
-          className="max-w-xs"
+          className="w-[300px] md:w-[370px]"
         />
-        <Button className="bg-white/20 text-white hover:bg-rosa/50 hover:text-beige w-[315px] mb-8"
+        <Button className="bg-white/20 text-white hover:bg-rosa/50 hover:text-beige w-[290px] md:w-[315px] mb-8"
           onClick={handleSendEmail}
           variant="primary"
           disabled={isEmailInvalid || isMessageInvalid}
         >
           Send Email
         </Button>
+        </div>
       </Card>
     </>
   );
