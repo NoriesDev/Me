@@ -10,7 +10,7 @@ function BigGallery() {
   return (
     <>
    <Card className="flex justify-center justify-content-center items-center mx-auto px-8 my-8 rounded  bg-black/0">
-<div className="flex flex-row">
+<div className="flex flex-col lg:flex-row">
     <div className="flex gap-8">
 <Image src={bgm1} className=" z-[1] relative rounded  w-auto  h-[92.5vh] object-cover my-4 mx-4 bg-black/10" />
 </div>
