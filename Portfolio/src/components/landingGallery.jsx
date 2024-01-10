@@ -16,7 +16,7 @@ function LandingGallery() {
     <>
    <Card className="flex justify-center items-center mx-auto px-8 my-8 rounded bg-black/10">
       <CardHeader className="z-[2] text-beige text-xl font-four font-bold text-center mx-auto">
-        <h3 className="my-4">Digital art gallery</h3>
+        <h3 className="my-4 text-center mx-auto">Digital art</h3>
       </CardHeader>
       <div className="flex flex-col lg:flex-row">
         <div className="flex flex-col lg:flex-row">
