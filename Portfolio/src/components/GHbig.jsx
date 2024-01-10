@@ -1,5 +1,5 @@
 import GHimg from "../assets/GH1.png"
-import GH4 from '../assets/Gh4.png'
+import GH4img from '../assets/Gh4.png'
 import { Card, CardHeader,  Image, CardBody,  Link } from "@nextui-org/react";
 import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
@@ -47,7 +47,7 @@ const GHbig = () => {
             </CardHeader>
             <CardBody className="flex-col xl:flex-row gap-2 lg:gap-4 items-center justify-center mx-auto">
             <Image src={GHimg} className=" z-[1] relative rounded  h-[260px] w-[500px] object-cover my-2" />
-            <Image src={GH4} className=" z-[1] relative rounded  h-[260px] w-[500px] object-cover my-2" />
+            <Image src={GH4img} className=" z-[1] relative rounded  h-[260px] w-[500px] object-cover my-2" />
             </CardBody>
         </Card>
         </>
