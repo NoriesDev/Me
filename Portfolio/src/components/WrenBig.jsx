@@ -6,8 +6,8 @@ import { TbBrandVite } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import wren from '../assets/wren.png'
-import wren1 from '../assets/wren1.png'
+import wren from '/wren.png'
+import wren1 from '/wren1.png'
 import { SiExpress } from "react-icons/si";
 import { SiNextui } from "react-icons/si";
 

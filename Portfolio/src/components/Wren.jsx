@@ -7,7 +7,7 @@ import { DiJavascript } from "react-icons/di";
 import { TbBrandVite } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
 import {useNavigate} from 'react-router-dom'
-import wren from '../assets/wren1.png'
+import wren from '/wren1.png'
 import { SiExpress } from "react-icons/si";
 import { SiNextui } from "react-icons/si";
 

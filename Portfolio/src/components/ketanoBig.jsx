@@ -1,6 +1,6 @@
 import { Card, CardHeader,  Image, CardBody, Link  } from "@nextui-org/react";
-import k1 from '../assets/ketano.png'
-import k2 from '../assets/ketano1.png'
+import k1 from '/ketano.png'
+import k2 from '/ketano1.png'
 import { TbBrandWordpress } from "react-icons/tb";
 
 import { TbWorldWww } from "react-icons/tb";

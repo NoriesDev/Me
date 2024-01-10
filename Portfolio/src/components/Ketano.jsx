@@ -1,7 +1,7 @@
 
 import { Card, CardHeader,  Image, Button } from "@nextui-org/react";
 import {useNavigate} from 'react-router-dom'
-import k1 from '../assets/Ketano1.png'
+import k1 from '/ketano1.png'
 import { TbBrandWordpress } from "react-icons/tb";
 
 

@@ -6,8 +6,8 @@ import { TbBrandVite } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import pfImg from '../assets/pf1.png'
-import pfImg2 from '../assets/pf3.png'
+import pfImg from '/pf1.png'
+import pfImg2 from '/pf3.png'
 import { SiExpress } from "react-icons/si";
 import { SiNextui } from "react-icons/si";
 

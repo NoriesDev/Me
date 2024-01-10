@@ -1,8 +1,8 @@
 import { Card,  Image } from "@nextui-org/react";
-import bgm from '../assets/gal1.png';
-import bgm1 from '../assets/gal2.png';
-import bgm2 from '../assets/gal3.png';
-import bgm3 from '../assets/gal4.png';
+import bgm from '/gal1.png';
+import bgm1 from '/gal2.png';
+import bgm2 from '/gal3.png';
+import bgm3 from '/gal4.png';
 
 
 function BigGallery() {

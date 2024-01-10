@@ -1,4 +1,4 @@
-import GHimg from "../assets/GH1.png"
+import GHimg from "/GH1.png"
 import { Card, CardHeader,  Image, Button } from "@nextui-org/react";
 import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";

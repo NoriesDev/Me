@@ -1,8 +1,8 @@
 import { Card,  Image, Button, CardHeader } from "@nextui-org/react";
 import {useNavigate} from 'react-router-dom'
-import bgm from '../assets/gal1.png';
-import bgm1 from '../assets/gal2.png';
-import bgm3 from '../assets/gal4.png';
+import bgm from '/gal1.png';
+import bgm1 from '/gal2.png';
+import bgm3 from '/gal4.png';
 
 
 function LandingGallery() {

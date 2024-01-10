@@ -1,5 +1,5 @@
 import { Card, CardBody, Image } from '@nextui-org/react';
-import logo from '../assets/Logo.png'
+import logo from '/Logo.png'
 
 function AnimatedHeader() {
 

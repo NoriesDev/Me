@@ -1,4 +1,4 @@
-import Logo1 from '../assets/Logo1.png';
+import Logo1 from '/Logo1.png';
 
 
 function Foot() {

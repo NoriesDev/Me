@@ -1,5 +1,5 @@
-import GHimg from "../assets/GH1.png"
-import GH4img from '../assets/Gh4.png'
+import GHimg from "/GH1.png"
+import GH4img from '/GH4.png'
 import { Card, CardHeader,  Image, CardBody,  Link } from "@nextui-org/react";
 import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";

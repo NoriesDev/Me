@@ -5,7 +5,7 @@
 
 :root {
     background-color: #010c1e;
-    background-image: url('assets/BG.png');
+    background-image: url('/BG.png');
     background-size: cover; 
     
 };

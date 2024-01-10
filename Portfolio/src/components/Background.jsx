@@ -1,4 +1,4 @@
-import bg from "../assets/BG.png"
+import bg from "/BG.png"
 
 
 function Background() {
