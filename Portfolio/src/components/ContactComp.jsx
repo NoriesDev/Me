@@ -3,8 +3,8 @@ import { Card, CardBody, Link, CardHeader, CardFooter } from "@nextui-org/react"
 import { FaLinkedin } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
+//import { FaTiktok } from "react-icons/fa";
+//import { FaInstagramSquare } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { useState } from 'react';
 
@@ -39,6 +39,7 @@ function ContactComp() {
 <Link className="font-bold text-white   hover:text-rosa text-sm"  href="https://github.com/NoriesDev">GitHub</Link>
 <FaGithub className="w-[30px] h-[30px] hover:text-rosa " />
 </div>
+{/*
 <div className="flex gap-32">
 <Link className="font-bold text-white   hover:text-rosa text-sm"  href="https://www.instagram.com/nm.development?igsh=MXcwMjAzZHV5bmw3MA%3D%3D&utm_source=qr">Instagram</Link>
 <FaInstagramSquare className="w-[30px] h-[30px] hover:text-rosa " />
@@ -46,7 +47,7 @@ function ContactComp() {
 <div className="flex gap-36">
 <Link className="font-bold text-white  hover:text-rosa  text-sm"  href="https://www.tiktok.com/@nm.development">TikTok</Link>
 <FaTiktok className="w-[30px] h-[30px]  hover:text-rosa " />
-</div>
+</div>*/}
 <div className="flex text-white gap-40" onClick={handleCopyEmail}>
         <p className="font-bold text-white  hover:text-rosa  text-sm mt-2 cursor-pointer">Mail</p>
         <IoIosMail className="w-[30px] h-[30px] cursor-pointer hover:text-rosa " />

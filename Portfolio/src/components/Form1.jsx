@@ -34,7 +34,7 @@ function Form() {
 
   return (
     <>
-      <Card className="grid gap-4 justify-center mx-auto text-white font-four bg-black/20 w-[320px] md:w-[370px] my-4 rounded">
+      <Card className="grid gap-4 justify-center mx-auto text-white font-four bg-black/20 w-[320px] md:w-[400px] my-4 rounded">
             <h3 className="font-bold text-xl text-center text-beige mt-10">Send a Mail</h3>
             <div className="justify-center items-center mx-auto">
         <Input 
