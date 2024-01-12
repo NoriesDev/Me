@@ -3,11 +3,3 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    background-color: #010c1e;
-    background-image: url('/BG.png');
-    background-size: cover; 
-    
-};
-
-

@@ -1,5 +1,5 @@
 import Foot from "../components/Foot.jsx"
-import Nav from "../components/Nav.jsx"
+import Nav from '../components/Nav';
 import AnimatedHeader from "../components/AnimationHeader.jsx"
 import About1 from "../components/About1.jsx"
 import Contact1 from "../components/Contact1.jsx"
@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <>
-   <Nav />
+    <Nav />
    <AnimatedHeader />
    <div className="lg:flex gap-8 justify-center mx-auto">
    <div className="flex">

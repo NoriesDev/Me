@@ -12,7 +12,7 @@ function About() {
     <>
    <Nav />
 
-   <div className="text-white font-four text-5xl text-center font-bold my-12">
+   <div className="text-white font-four text-5xl text-center font-bold my-12 lg:my-48">
     <p>ABOUT</p>
    </div>
    <Me />

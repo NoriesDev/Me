@@ -7,7 +7,7 @@ function Animation2() {
     
     return (
       <>
-    <Card className='rounded w-[95vw] lg:w-[55vw]  h-[20vh] bg-black/0 mx-auto justify-center '>
+    <Card className='rounded w-[95vw] lg:w-[60vw] lg:my-20 h-[20vh] bg-black/0 mx-auto justify-center '>
         <CardBody className='flex-col justify-center bg-black/0 rounded-none'>
 
             <Animation texts={[

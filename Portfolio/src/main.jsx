@@ -5,6 +5,10 @@ import './index.css'
 import { BrowserRouter } from "react-router-dom";
 import { NextUIProvider } from "@nextui-org/react";
 
+
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
@@ -14,4 +18,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </NextUIProvider>
     </BrowserRouter>
   </React.StrictMode>,
+
 )
