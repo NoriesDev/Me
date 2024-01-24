@@ -20,29 +20,31 @@ const Me = () => {
     
     return (
         <>
-            <Card className="flex lg:flex-row bg-black/0 z-0 flex w-[95vw] my-8 justify-center mx-auto rounded">
+            <Card className="flex lg:flex-row bg-black/0 z-0 flex  w-[95vw] md:w-[85vw] lg:w-[70vw] xl:w-[45vw]  my-8 justify-center mx-auto rounded">
 
-                <CardHeader className="flex-col lg:flex-row text-center my-5 justify-center mx-auto items-center ">
+                <CardHeader className="flex-col text-center my-5 justify-center mx-auto items-center ">
                     <div className="flex items-center ">
-                    <div className="flex-row my-4 justify-center xl:ml-44 items-center">
+                    <div className="flex-row my-4 justify-center items-center">
                     <p className="mb-4 w-[300px] text-center font-four text-lg font-bold text-beige"> Junior Full Stack Web & App Developer</p>
-                    <div className="flex-row justify-center ml-32 items-center">
-                    <p className="text-white my-2"><TbFileTypeHtml className="w-[35px] h-[35px]"/></p>
+                    <div className="flex justify-center mb-4 items-center">
+                    <p className="text-white mx-4"><TbFileTypeHtml className="w-[35px] h-[35px]"/></p>
                     <p className="text-white"><PiFileCssDuotone className="w-[35px] h-[35px]"/></p>
-                    <p className="text-white my-2"><FaBootstrap className="w-[35px] h-[35px]"/></p>
+                    <p className="text-white mx-4"><FaBootstrap className="w-[35px] h-[35px]"/></p>
                     <p className="text-white"><SiTailwindcss className="w-[35px] h-[35px]"/></p>
-                    <p className="text-white"><SiNextui className="w-[35px] h-[35px]"/></p>
-                    <p className="text-white my-2"><DiJavascript className="w-[35px] h-[35px]"/></p>
-                    <p className="text-white"><FaReact className="w-[35px] h-[35px]"/></p>
-                    <p className="text-white my-2"><FaNode className="w-[35px] h-[35px]"/></p>
-                    <p className="text-white my-2"><SiExpress className="w-[35px] h-[35px]"/></p>
+                    <p className="text-white mx-4"><SiNextui className="w-[35px] h-[35px]"/></p>
+                    <p className="text-white "><DiJavascript className="w-[35px] h-[35px]"/></p>
+                    </div>
+                    <div className="flex justify-center  items-center">
+                    <p className="text-white mx-4"><FaReact className="w-[35px] h-[35px]"/></p>
+                    <p className="text-white"><FaNode className="w-[35px] h-[35px]"/></p>
+                    <p className="text-white mx-4"><SiExpress className="w-[35px] h-[35px]"/></p>
                     <p className="text-white"><DiPostgresql className="w-[35px] h-[35px]"/></p>
-                    <p className="text-white my-2"><SiMongodb className="w-[35px] h-[35px]"/></p>
+                    <p className="text-white mx-4"><SiMongodb className="w-[35px] h-[35px]"/></p>
                     <p className="text-white"><FaGit className="w-[35px] h-[35px]"/></p>
                     </div>
                     </div>
                     </div>
-                    <div className="flex-row my-4 mx-0 xl:mx-48  font-four text-sm text-start">
+                    <div className="flex-row my-4 font-four text-sm text-center">
                         <h3 className="text-white my-4 text-lg font-bold text-rosa/70">The fascination of programming:</h3>
                     <p className="text-white my-2 mx-0 lg:mx-8">The excitement of solving problems and the challenge of unravelling complex puzzles.</p>
                     <p className="text-white mx-2 lg:mx-8">The immersive and ever-evolving nature of the technology that allows for continuous learning.</p>

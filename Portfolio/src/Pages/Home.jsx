@@ -5,14 +5,17 @@ import About1 from "../components/About1.jsx"
 import Contact1 from "../components/Contact1.jsx"
 import Project1 from "../components/Project1.jsx"
 import LandingGallery from "../components/landingGallery.jsx"
-
+import { useBackgroundContext } from "../Context/context.jsx";
 
 function Home() {
+  const { currentBg } = useBackgroundContext();
+  const isDarkMode = currentBg === '/BG.png';
 
 
   return (
     <>
     <Nav />
+    <div className="lg:h-[160vh] overflow-hidden">
    <AnimatedHeader />
    <div className="lg:flex gap-8 justify-center mx-auto">
    <div className="flex">
@@ -27,10 +30,12 @@ function Home() {
    <Contact1 />
    </div>
    <div className="flex">
-    <LandingGallery />
+   {isDarkMode && <LandingGallery />}
+   </div>
    </div>
    </div>
    <Foot />
+
     </>
   )
 }

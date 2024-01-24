@@ -12,7 +12,7 @@ function ProjectCollect() {
     <>
 
    <div className="text-white text-5xl font-bold font-four text-center">
-    <h3 className="my-12 lg:my-48">PROJECTS</h3>
+    <h3 className="my-12">PROJECTS</h3>
    </div>
    <div className="w-[90%] xl:w-[70%] mx-auto">
    <div className="flex flex-col lg:flex-row">

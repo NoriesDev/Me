@@ -2,22 +2,17 @@ import Logo1 from '/Logo1.png';
 
 
 function Foot() {
-
   return (
-    <>
-    <footer className="flex flex-col max-w-[100vw] overflow-hidden font-four">
-      <div className="flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center bg-black/0 text-white absolute z-[100] w-full mt-4">
-        <div className='flex justify-center '>
+    <footer className="flex flex-col items-center justify-center bg-black/0 text-white h-[200px]  w-full font-four">
+      <div className="flex justify-center">
         <img src={Logo1} alt="Logo" className="object-cover w-[140px] h-[140px] mx-auto" />
-        </div>
-        <div className='text-center text-white lg:mb-8 my-4 mx-auto'>
+      </div>
+      <div className='text-center text-white my-2'>
         <h5>Privacy Policy</h5>
         <p>© 2024 Nora Martiny</p>
       </div>
-      </div>
-      </footer>
-    </>
-  )
+    </footer>
+  );
 }
 
 export default Foot;

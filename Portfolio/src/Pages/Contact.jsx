@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
    <Nav />
-   <div className="text-white font-four text-5xl text-center font-bold my-16  lg:my-48">
+   <div className="text-white font-four text-5xl text-center font-bold my-12">
     <p>CONTACT</p>
    </div>
    <div className="flex flex-col xl:flex-row my-12 mx-auto justify-center">

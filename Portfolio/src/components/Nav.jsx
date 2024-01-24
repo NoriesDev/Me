@@ -3,12 +3,17 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Button, NavbarMenuItem, 
 import Logo from '/Logo1.png';
 import {useNavigate} from 'react-router-dom'
 
+import { useBackgroundContext } from "../Context/context.jsx";
+
+
 
 
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const navigate = useNavigate()
+  const { currentBg } = useBackgroundContext();
+  const isDarkMode = currentBg === '/BG.png';
 
   const handleAbout = () => {
       navigate('/about');
@@ -61,12 +66,14 @@ function Nav() {
             Projects
             </Button>
           </NavbarItem>
+          {isDarkMode && (
           <NavbarItem>
-          <Button onClick={handleG}
-            variant="flat"  className="bg-white/10 text-white hover:text-beige hover:bg-rosa/20">
-            Gallery
+            <Button onClick={handleG}
+              variant="flat" className="bg-white/10 text-white hover:text-beige hover:bg-rosa/20">
+              Gallery
             </Button>
           </NavbarItem>
+        )}
           <NavbarItem>
             <Button onClick={handleContact} variant="flat" className="bg-white/10 text-white hover:text-beige hover:bg-rosa/20">
             Contact
@@ -93,12 +100,14 @@ function Nav() {
             Projects
             </Button>
           </NavbarItem>
+          {isDarkMode && (
           <NavbarItem>
-          <Button onClick={handleG}
-            variant="flat"  className="bg-white/10 text-white hover:text-beige hover:bg-rosa/20">
-            Gallery
+            <Button onClick={handleG}
+              variant="flat" className="bg-white/10 text-white hover:text-beige hover:bg-rosa/20">
+              Gallery
             </Button>
           </NavbarItem>
+        )}
           <NavbarItem>
             <Button onClick={handleContact} variant="flat" className="bg-white/10 text-white hover:text-beige hover:bg-rosa/20">
             Contact
